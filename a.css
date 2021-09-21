@@ -1,0 +1,15 @@
+body,input,p,a{
+    background-color:#000;
+    color:#0f0;
+    font-family:Courier, monospace;
+    font-weight:bolder;
+}
+input{
+    width:90%;
+    padding:5px;
+    border-width:0;
+    border-style:none;
+}
+input::placeholder{
+    color:#070;
+}
