@@ -3,6 +3,7 @@ body,input,p,a{
     color:#0f0;
     font-family:Courier, monospace;
     font-weight:bolder;
+    text-align: justify;
 }
 input{
     width:90%;
