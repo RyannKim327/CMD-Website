@@ -6,8 +6,8 @@ function wc(){
 }
 function input(){
 	tf = 1;
-   var label = document.createElement("label");
-   label.innerHTML = "> ";
+	var label = document.createElement("label");
+	label.innerHTML = "> ";
 	input_1 = document.createElement("input");
 	input_1.placeholder = "Enter command";
 	input_1.autofocus = "true";
@@ -24,9 +24,9 @@ function input(){
 			}
 		}
 	});
-   document.body.appendChild(label);
+	document.body.appendChild(label);
 	document.body.appendChild(input_1);
-   document.body.appendChild(document.createElement("br"));
+	document.body.appendChild(document.createElement("br"));
 }
 function expo(attr){
 	p = document.createElement("label");
@@ -100,9 +100,9 @@ function coms(){
 		for(j = 0; j < linkarr.length; j++){
 			xa = document.createElement("a");
 			xa.href = linkarr[j];
-			xa.innerHTML = ((j + 1) + ". " + namearr[j]);			
+			xa.innerHTML = ((j + 1) + ". " + namearr[j]);
 			xa.style.display = "block";
-			document.body.appendChild(xa);			
+			document.body.appendChild(xa);
 		}
 	}else if(hold == "terms and conditions"){
 		var marr = ["Help others, for those who want to learn, and be a better coder and/or programmer, I wanna you to share your knowledge, this would be a great pleasure of mine.","Never add and/or mention my name, from REAL ACCOUNT, up to DUMMIES, and also the HangDroid PH and MPOP Reverse II in any kind of platforms and media. Just give my name if they need help.","Never give me any credits, instead do the first condition.","Making me as an anonymous is a huge help for me, not to avoid them, but to avoid popularity.","Thank me if you're done, or I'll helped you."];
